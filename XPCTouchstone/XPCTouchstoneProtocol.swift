@@ -7,29 +7,28 @@
 
 import Foundation
 
-/// The protocol that this service will vend as its API. This protocol will also need to be visible to the process hosting the service.
-@objc protocol XPCTouchstoneProtocol {
+enum YKSoftError: Error {
+    case unknown(String)
+    case invalidExecutable
+    case invalidKeyFile
     
-    /// Replace the API of this protocol with an API appropriate to the service you are vending.
-    func uppercase(string: String, with reply: @escaping (String) -> Void)
+    var localizedDescription: String {
+        switch self {
+        case .unknown(let desc): return desc
+        case .invalidExecutable: return "Invalid yksoft executable."
+        case .invalidKeyFile: return "Invalid yksoft key file."
+        }
+    }
 }
 
-/*
- To use the service from an application or other process, use NSXPCConnection to establish a connection to the service by doing something like this:
+extension YKSoftError: CustomNSError {
+    public var errorUserInfo: [String : Any] {
+        return [
+            NSLocalizedDescriptionKey: self.localizedDescription
+        ]
+    }
+}
 
-     let connectionToService = NSXPCConnection(serviceName: "ch.capslock.XPCTouchstone")
-     connectionToService.remoteObjectInterface = NSXPCInterface(with: XPCTouchstoneProtocol.self)
-     connectionToService.resume()
-
- Once you have a connection to the service, you can use it like this:
-
-     if let proxy = connectionToService.remoteObjectProxy as? XPCTouchstoneProtocol {
-         proxy.uppercase(string: "hello") { aString in
-             NSLog("Result string was: \(aString)")
-         }
-     }
-
- And, when you are finished with the service, clean up the connection like this:
-
-     connectionToService.invalidate()
-*/
+@objc public protocol XPCTouchstoneProtocol {
+    func getPasscode(reply: @escaping (String?, Error?) -> Void)
+}

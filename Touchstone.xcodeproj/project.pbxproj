@@ -7,11 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		378D338229CA0E9400EFEC3B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378D338129CA0E9400EFEC3B /* SettingsViewController.swift */; };
+		378D338429CA14C000EFEC3B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 378D338329CA14C000EFEC3B /* Info.plist */; };
 		37BDBC302994791C00FF8A2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BDBC2F2994791C00FF8A2E /* AppDelegate.swift */; };
-		37BDBC342994791C00FF8A2E /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 37BDBC322994791C00FF8A2E /* Main.html */; };
-		37BDBC362994791C00FF8A2E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 37BDBC352994791C00FF8A2E /* Icon.png */; };
-		37BDBC382994791C00FF8A2E /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 37BDBC372994791C00FF8A2E /* Style.css */; };
-		37BDBC3A2994791C00FF8A2E /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 37BDBC392994791C00FF8A2E /* Script.js */; };
 		37BDBC3C2994791C00FF8A2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BDBC3B2994791C00FF8A2E /* ViewController.swift */; };
 		37BDBC3F2994791C00FF8A2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37BDBC3D2994791C00FF8A2E /* Main.storyboard */; };
 		37BDBC412994791C00FF8A2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37BDBC402994791C00FF8A2E /* Assets.xcassets */; };
@@ -21,10 +19,16 @@
 		37BDBC532994791C00FF8A2E /* images in Resources */ = {isa = PBXBuildFile; fileRef = 37BDBC522994791C00FF8A2E /* images */; };
 		37BDBC552994791C00FF8A2E /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 37BDBC542994791C00FF8A2E /* manifest.json */; };
 		37BDBC572994791C00FF8A2E /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 37BDBC562994791C00FF8A2E /* background.js */; };
-		37BDBC592994791C00FF8A2E /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 37BDBC582994791C00FF8A2E /* content.js */; };
 		37BDBC5B2994791C00FF8A2E /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 37BDBC5A2994791C00FF8A2E /* popup.html */; };
 		37BDBC5D2994791C00FF8A2E /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 37BDBC5C2994791C00FF8A2E /* popup.css */; };
 		37BDBC5F2994791C00FF8A2E /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 37BDBC5E2994791C00FF8A2E /* popup.js */; };
+		37BDBC722994795300FF8A2E /* XPCTouchstoneProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BDBC712994795300FF8A2E /* XPCTouchstoneProtocol.swift */; };
+		37BDBC742994795300FF8A2E /* XPCTouchstone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BDBC732994795300FF8A2E /* XPCTouchstone.swift */; };
+		37BDBC762994795300FF8A2E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BDBC752994795300FF8A2E /* main.swift */; };
+		37BDBC7A2994795300FF8A2E /* XPCTouchstone.xpc in Embed XPC Services */ = {isa = PBXBuildFile; fileRef = 37BDBC6F2994795300FF8A2E /* XPCTouchstone.xpc */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		37BDBC802994797500FF8A2E /* XPCTouchstone.xpc in Embed XPC Services */ = {isa = PBXBuildFile; fileRef = 37BDBC6F2994795300FF8A2E /* XPCTouchstone.xpc */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		37BDBC8229947ABE00FF8A2E /* duo.js in Resources */ = {isa = PBXBuildFile; fileRef = 37BDBC8129947ABE00FF8A2E /* duo.js */; };
+		37BDBC8429947AC300FF8A2E /* touchstone.js in Resources */ = {isa = PBXBuildFile; fileRef = 37BDBC8329947AC300FF8A2E /* touchstone.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 37BDBC472994791C00FF8A2E;
 			remoteInfo = "Touchstone Extension";
+		};
+		37BDBC782994795300FF8A2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37BDBC242994791C00FF8A2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37BDBC6E2994795300FF8A2E;
+			remoteInfo = XPCTouchstone;
+		};
+		37BDBC8529947C4200FF8A2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37BDBC242994791C00FF8A2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37BDBC6E2994795300FF8A2E;
+			remoteInfo = XPCTouchstone;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -49,15 +67,36 @@
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		37BDBC7E2994795300FF8A2E /* Embed XPC Services */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/XPCServices";
+			dstSubfolderSpec = 16;
+			files = (
+				37BDBC7A2994795300FF8A2E /* XPCTouchstone.xpc in Embed XPC Services */,
+			);
+			name = "Embed XPC Services";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37BDBC7F2994796800FF8A2E /* Embed XPC Services */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/XPCServices";
+			dstSubfolderSpec = 16;
+			files = (
+				37BDBC802994797500FF8A2E /* XPCTouchstone.xpc in Embed XPC Services */,
+			);
+			name = "Embed XPC Services";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		378D338029CA0E6E00EFEC3B /* XPCTouchstone.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XPCTouchstone.entitlements; sourceTree = "<group>"; };
+		378D338129CA0E9400EFEC3B /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		378D338329CA14C000EFEC3B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37BDBC2C2994791C00FF8A2E /* Touchstone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Touchstone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37BDBC2F2994791C00FF8A2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		37BDBC332994791C00FF8A2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
-		37BDBC352994791C00FF8A2E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		37BDBC372994791C00FF8A2E /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
-		37BDBC392994791C00FF8A2E /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
 		37BDBC3B2994791C00FF8A2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		37BDBC3E2994791C00FF8A2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		37BDBC402994791C00FF8A2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -69,12 +108,18 @@
 		37BDBC522994791C00FF8A2E /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		37BDBC542994791C00FF8A2E /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
 		37BDBC562994791C00FF8A2E /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
-		37BDBC582994791C00FF8A2E /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
 		37BDBC5A2994791C00FF8A2E /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
 		37BDBC5C2994791C00FF8A2E /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
 		37BDBC5E2994791C00FF8A2E /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
 		37BDBC602994791C00FF8A2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37BDBC612994791C00FF8A2E /* Touchstone_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Touchstone_Extension.entitlements; sourceTree = "<group>"; };
+		37BDBC6F2994795300FF8A2E /* XPCTouchstone.xpc */ = {isa = PBXFileReference; explicitFileType = "wrapper.xpc-service"; includeInIndex = 0; path = XPCTouchstone.xpc; sourceTree = BUILT_PRODUCTS_DIR; };
+		37BDBC712994795300FF8A2E /* XPCTouchstoneProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XPCTouchstoneProtocol.swift; sourceTree = "<group>"; };
+		37BDBC732994795300FF8A2E /* XPCTouchstone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XPCTouchstone.swift; sourceTree = "<group>"; };
+		37BDBC752994795300FF8A2E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		37BDBC772994795300FF8A2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37BDBC8129947ABE00FF8A2E /* duo.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = duo.js; sourceTree = "<group>"; };
+		37BDBC8329947AC300FF8A2E /* touchstone.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = touchstone.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +137,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		37BDBC6C2994795300FF8A2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -100,6 +152,7 @@
 			children = (
 				37BDBC2E2994791C00FF8A2E /* Touchstone */,
 				37BDBC4C2994791C00FF8A2E /* Touchstone Extension */,
+				37BDBC702994795300FF8A2E /* XPCTouchstone */,
 				37BDBC2D2994791C00FF8A2E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -109,6 +162,7 @@
 			children = (
 				37BDBC2C2994791C00FF8A2E /* Touchstone.app */,
 				37BDBC482994791C00FF8A2E /* Touchstone Extension.appex */,
+				37BDBC6F2994795300FF8A2E /* XPCTouchstone.xpc */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,10 +172,12 @@
 			children = (
 				37BDBC2F2994791C00FF8A2E /* AppDelegate.swift */,
 				37BDBC3B2994791C00FF8A2E /* ViewController.swift */,
+				378D338129CA0E9400EFEC3B /* SettingsViewController.swift */,
 				37BDBC3D2994791C00FF8A2E /* Main.storyboard */,
 				37BDBC402994791C00FF8A2E /* Assets.xcassets */,
 				37BDBC422994791C00FF8A2E /* Touchstone.entitlements */,
 				37BDBC432994791C00FF8A2E /* Touchstone.entitlements */,
+				378D338329CA14C000EFEC3B /* Info.plist */,
 				37BDBC312994791C00FF8A2E /* Resources */,
 			);
 			path = Touchstone;
@@ -130,10 +186,6 @@
 		37BDBC312994791C00FF8A2E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				37BDBC322994791C00FF8A2E /* Main.html */,
-				37BDBC352994791C00FF8A2E /* Icon.png */,
-				37BDBC372994791C00FF8A2E /* Style.css */,
-				37BDBC392994791C00FF8A2E /* Script.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -155,13 +207,26 @@
 				37BDBC502994791C00FF8A2E /* _locales */,
 				37BDBC522994791C00FF8A2E /* images */,
 				37BDBC542994791C00FF8A2E /* manifest.json */,
+				37BDBC8129947ABE00FF8A2E /* duo.js */,
+				37BDBC8329947AC300FF8A2E /* touchstone.js */,
 				37BDBC562994791C00FF8A2E /* background.js */,
-				37BDBC582994791C00FF8A2E /* content.js */,
 				37BDBC5A2994791C00FF8A2E /* popup.html */,
 				37BDBC5C2994791C00FF8A2E /* popup.css */,
 				37BDBC5E2994791C00FF8A2E /* popup.js */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		37BDBC702994795300FF8A2E /* XPCTouchstone */ = {
+			isa = PBXGroup;
+			children = (
+				378D338029CA0E6E00EFEC3B /* XPCTouchstone.entitlements */,
+				37BDBC712994795300FF8A2E /* XPCTouchstoneProtocol.swift */,
+				37BDBC732994795300FF8A2E /* XPCTouchstone.swift */,
+				37BDBC752994795300FF8A2E /* main.swift */,
+				37BDBC772994795300FF8A2E /* Info.plist */,
+			);
+			path = XPCTouchstone;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,11 +240,13 @@
 				37BDBC292994791C00FF8A2E /* Frameworks */,
 				37BDBC2A2994791C00FF8A2E /* Resources */,
 				37BDBC672994791C00FF8A2E /* Embed Foundation Extensions */,
+				37BDBC7E2994795300FF8A2E /* Embed XPC Services */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				37BDBC4B2994791C00FF8A2E /* PBXTargetDependency */,
+				37BDBC792994795300FF8A2E /* PBXTargetDependency */,
 			);
 			name = Touchstone;
 			productName = Touchstone;
@@ -193,15 +260,34 @@
 				37BDBC442994791C00FF8A2E /* Sources */,
 				37BDBC452994791C00FF8A2E /* Frameworks */,
 				37BDBC462994791C00FF8A2E /* Resources */,
+				37BDBC7F2994796800FF8A2E /* Embed XPC Services */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				37BDBC8629947C4200FF8A2E /* PBXTargetDependency */,
 			);
 			name = "Touchstone Extension";
 			productName = "Touchstone Extension";
 			productReference = 37BDBC482994791C00FF8A2E /* Touchstone Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
+		};
+		37BDBC6E2994795300FF8A2E /* XPCTouchstone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37BDBC7B2994795300FF8A2E /* Build configuration list for PBXNativeTarget "XPCTouchstone" */;
+			buildPhases = (
+				37BDBC6B2994795300FF8A2E /* Sources */,
+				37BDBC6C2994795300FF8A2E /* Frameworks */,
+				37BDBC6D2994795300FF8A2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XPCTouchstone;
+			productName = XPCTouchstone;
+			productReference = 37BDBC6F2994795300FF8A2E /* XPCTouchstone.xpc */;
+			productType = "com.apple.product-type.xpc-service";
 		};
 /* End PBXNativeTarget section */
 
@@ -217,6 +303,9 @@
 						CreatedOnToolsVersion = 14.2;
 					};
 					37BDBC472994791C00FF8A2E = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					37BDBC6E2994795300FF8A2E = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
@@ -236,6 +325,7 @@
 			targets = (
 				37BDBC2B2994791C00FF8A2E /* Touchstone */,
 				37BDBC472994791C00FF8A2E /* Touchstone Extension */,
+				37BDBC6E2994795300FF8A2E /* XPCTouchstone */,
 			);
 		};
 /* End PBXProject section */
@@ -245,12 +335,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37BDBC362994791C00FF8A2E /* Icon.png in Resources */,
 				37BDBC3F2994791C00FF8A2E /* Main.storyboard in Resources */,
-				37BDBC3A2994791C00FF8A2E /* Script.js in Resources */,
-				37BDBC342994791C00FF8A2E /* Main.html in Resources */,
 				37BDBC412994791C00FF8A2E /* Assets.xcassets in Resources */,
-				37BDBC382994791C00FF8A2E /* Style.css in Resources */,
+				378D338429CA14C000EFEC3B /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,8 +351,16 @@
 				37BDBC532994791C00FF8A2E /* images in Resources */,
 				37BDBC552994791C00FF8A2E /* manifest.json in Resources */,
 				37BDBC512994791C00FF8A2E /* _locales in Resources */,
-				37BDBC592994791C00FF8A2E /* content.js in Resources */,
+				37BDBC8429947AC300FF8A2E /* touchstone.js in Resources */,
+				37BDBC8229947ABE00FF8A2E /* duo.js in Resources */,
 				37BDBC5F2994791C00FF8A2E /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37BDBC6D2994795300FF8A2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +373,7 @@
 			files = (
 				37BDBC3C2994791C00FF8A2E /* ViewController.swift in Sources */,
 				37BDBC302994791C00FF8A2E /* AppDelegate.swift in Sources */,
+				378D338229CA0E9400EFEC3B /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +385,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		37BDBC6B2994795300FF8A2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37BDBC722994795300FF8A2E /* XPCTouchstoneProtocol.swift in Sources */,
+				37BDBC742994795300FF8A2E /* XPCTouchstone.swift in Sources */,
+				37BDBC762994795300FF8A2E /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -297,17 +403,19 @@
 			target = 37BDBC472994791C00FF8A2E /* Touchstone Extension */;
 			targetProxy = 37BDBC4A2994791C00FF8A2E /* PBXContainerItemProxy */;
 		};
+		37BDBC792994795300FF8A2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37BDBC6E2994795300FF8A2E /* XPCTouchstone */;
+			targetProxy = 37BDBC782994795300FF8A2E /* PBXContainerItemProxy */;
+		};
+		37BDBC8629947C4200FF8A2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37BDBC6E2994795300FF8A2E /* XPCTouchstone */;
+			targetProxy = 37BDBC8529947C4200FF8A2E /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		37BDBC322994791C00FF8A2E /* Main.html */ = {
-			isa = PBXVariantGroup;
-			children = (
-				37BDBC332994791C00FF8A2E /* Base */,
-			);
-			name = Main.html;
-			sourceTree = "<group>";
-		};
 		37BDBC3D2994791C00FF8A2E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -503,10 +611,11 @@
 				CODE_SIGN_ENTITLEMENTS = Touchstone/Touchstone.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = F2XKQN9YY8;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Touchstone/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Touchstone;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
@@ -516,7 +625,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -539,10 +648,11 @@
 				CODE_SIGN_ENTITLEMENTS = Touchstone/Touchstone.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = F2XKQN9YY8;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Touchstone/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Touchstone;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
@@ -552,7 +662,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -561,6 +671,52 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ch.capslock.Touchstone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		37BDBC7C2994795300FF8A2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = XPCTouchstone/XPCTouchstone.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2XKQN9YY8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = XPCTouchstone/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = XPCTouchstone;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.capslock.XPCTouchstone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		37BDBC7D2994795300FF8A2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = XPCTouchstone/XPCTouchstone.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2XKQN9YY8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = XPCTouchstone/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = XPCTouchstone;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.capslock.XPCTouchstone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -592,6 +748,15 @@
 			buildConfigurations = (
 				37BDBC692994791C00FF8A2E /* Debug */,
 				37BDBC6A2994791C00FF8A2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37BDBC7B2994795300FF8A2E /* Build configuration list for PBXNativeTarget "XPCTouchstone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37BDBC7C2994795300FF8A2E /* Debug */,
+				37BDBC7D2994795300FF8A2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

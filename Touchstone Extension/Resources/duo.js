@@ -1,13 +1,24 @@
-setTimeout(function() {
-    document.querySelector(".base-wrapper").style.background = "blue";
+// Change color to indicate that plugin is running
+// document.querySelector(".base-wrapper").style.background = "#E6DA9D";
+
+browser.runtime.sendMessage({ type: "native", message: "getPasscode" }).then((response) => {
+    console.log("Received passcode: ");
+    console.log(response);
+
+    if (typeof response !== "string") {
+        window.alert("Error: " + response.error);
+        return;
+    }
+
+    if (response === "") {
+        return;
+    }
+
+    document.querySelector(".base-wrapper").style.background = "#A2E391";
 
     document.querySelector('select[name="device"]').value = "token";
     document.querySelector('#passcode').click();
-    
-    browser.runtime.sendMessage({ type: "native", message: "yksoft" }).then((response) => {
-        console.log("Received response: ");
-        console.log(response);
-        document.querySelector('input[name="passcode"]').value = response.toString();
-        document.querySelector('#passcode').click();
-    });
-}, 10);
+
+    document.querySelector('input[name="passcode"]').value = response.toString();
+    document.querySelector('#passcode').click();
+});

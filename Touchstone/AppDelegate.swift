@@ -9,6 +9,8 @@ import Cocoa
 
 @main
 class AppDelegate: NSObject, NSApplicationDelegate {
+    
+    var settingsWindowController: NSWindowController? = nil
 
     func applicationDidFinishLaunching(_ notification: Notification) {
         // Override point for customization after application launch.
@@ -18,4 +20,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         return true
     }
 
+    @IBAction func openSettings(_ sender: Any) {
+        if settingsWindowController == nil {
+            settingsWindowController = NSStoryboard(name: "Main", bundle: .main).instantiateController(withIdentifier: "settings") as? NSWindowController
+        }
+        
+        settingsWindowController?.showWindow(self)
+    }
 }
