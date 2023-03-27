@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "keychainaccess",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kishikawakatsumi/KeychainAccess",
+      "state" : {
+        "branch" : "master",
+        "revision" : "ecb18d8ce4d88277cc4fb103973352d91e18c535"
+      }
+    },
+    {
+      "identity" : "yksoft",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/NMAC427/YKSoft",
+      "state" : {
+        "branch" : "main",
+        "revision" : "01035a0e6aedaedd29b369ebf18f1ddda2fd0b56"
+      }
+    }
+  ],
+  "version" : 2
+}

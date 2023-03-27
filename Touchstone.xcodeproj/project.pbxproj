@@ -22,13 +22,44 @@
 		37BDBC5B2994791C00FF8A2E /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 37BDBC5A2994791C00FF8A2E /* popup.html */; };
 		37BDBC5D2994791C00FF8A2E /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 37BDBC5C2994791C00FF8A2E /* popup.css */; };
 		37BDBC5F2994791C00FF8A2E /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 37BDBC5E2994791C00FF8A2E /* popup.js */; };
-		37BDBC722994795300FF8A2E /* XPCTouchstoneProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BDBC712994795300FF8A2E /* XPCTouchstoneProtocol.swift */; };
-		37BDBC742994795300FF8A2E /* XPCTouchstone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BDBC732994795300FF8A2E /* XPCTouchstone.swift */; };
-		37BDBC762994795300FF8A2E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BDBC752994795300FF8A2E /* main.swift */; };
-		37BDBC7A2994795300FF8A2E /* XPCTouchstone.xpc in Embed XPC Services */ = {isa = PBXBuildFile; fileRef = 37BDBC6F2994795300FF8A2E /* XPCTouchstone.xpc */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		37BDBC802994797500FF8A2E /* XPCTouchstone.xpc in Embed XPC Services */ = {isa = PBXBuildFile; fileRef = 37BDBC6F2994795300FF8A2E /* XPCTouchstone.xpc */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		37BDBC8229947ABE00FF8A2E /* duo.js in Resources */ = {isa = PBXBuildFile; fileRef = 37BDBC8129947ABE00FF8A2E /* duo.js */; };
 		37BDBC8429947AC300FF8A2E /* touchstone.js in Resources */ = {isa = PBXBuildFile; fileRef = 37BDBC8329947AC300FF8A2E /* touchstone.js */; };
+		37CEF9C129CE47F700FDC6DD /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CEF9C029CE47F700FDC6DD /* Token.swift */; };
+		37CEF9C229CE47F700FDC6DD /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CEF9C029CE47F700FDC6DD /* Token.swift */; };
+		37CEF9C529CE499000FDC6DD /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 37CEF9C429CE499000FDC6DD /* KeychainAccess */; };
+		37CEF9C829CE4BC200FDC6DD /* YKSoft in Frameworks */ = {isa = PBXBuildFile; productRef = 37CEF9C729CE4BC200FDC6DD /* YKSoft */; };
+		37CEF9CA29CE4BD600FDC6DD /* YKSoft in Frameworks */ = {isa = PBXBuildFile; productRef = 37CEF9C929CE4BD600FDC6DD /* YKSoft */; };
+		37CEF9CC29CE4BD600FDC6DD /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 37CEF9CB29CE4BD600FDC6DD /* KeychainAccess */; };
+		37CEF9D429CE6D6D00FDC6DD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CEF9D329CE6D6D00FDC6DD /* main.swift */; };
+		37CEF9D829CE6D7400FDC6DD /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CEF9C029CE47F700FDC6DD /* Token.swift */; };
+		37CEF9DA29CE6D8000FDC6DD /* YKSoft in Frameworks */ = {isa = PBXBuildFile; productRef = 37CEF9D929CE6D8000FDC6DD /* YKSoft */; };
+		37CEF9DC29CE6D8000FDC6DD /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 37CEF9DB29CE6D8000FDC6DD /* KeychainAccess */; };
+		37CEF9E229CE709D00FDC6DD /* duokey in Embed Command Line Utility */ = {isa = PBXBuildFile; fileRef = 37CEF9D129CE6D6D00FDC6DD /* duokey */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		37DC86AA29D118670041D143 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DC86A929D118670041D143 /* AppDelegate.swift */; };
+		37DC86AC29D118670041D143 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DC86AB29D118670041D143 /* SceneDelegate.swift */; };
+		37DC86AE29D118670041D143 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DC86AD29D118670041D143 /* ViewController.swift */; };
+		37DC86B129D118670041D143 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37DC86AF29D118670041D143 /* Main.storyboard */; };
+		37DC86B329D118680041D143 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37DC86B229D118680041D143 /* Assets.xcassets */; };
+		37DC86B629D118680041D143 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37DC86B429D118680041D143 /* LaunchScreen.storyboard */; };
+		37DC86BE29D118BB0041D143 /* YKSoft in Frameworks */ = {isa = PBXBuildFile; productRef = 37DC86BD29D118BB0041D143 /* YKSoft */; };
+		37DC86C029D118BB0041D143 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 37DC86BF29D118BB0041D143 /* KeychainAccess */; };
+		37DC875829D119AC0041D143 /* Touchstone Extension iOS.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 37DC874029D119AC0041D143 /* Touchstone Extension iOS.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		37DC875C29D119DA0041D143 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BDBC4D2994791C00FF8A2E /* SafariWebExtensionHandler.swift */; };
+		37DC875D29D11A0B0041D143 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 37BDBC502994791C00FF8A2E /* _locales */; };
+		37DC875E29D11A0B0041D143 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 37BDBC522994791C00FF8A2E /* images */; };
+		37DC875F29D11A0B0041D143 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 37BDBC542994791C00FF8A2E /* manifest.json */; };
+		37DC876029D11A0B0041D143 /* duo.js in Resources */ = {isa = PBXBuildFile; fileRef = 37BDBC8129947ABE00FF8A2E /* duo.js */; };
+		37DC876129D11A0B0041D143 /* touchstone.js in Resources */ = {isa = PBXBuildFile; fileRef = 37BDBC8329947AC300FF8A2E /* touchstone.js */; };
+		37DC876229D11A0B0041D143 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 37BDBC562994791C00FF8A2E /* background.js */; };
+		37DC876329D11A0B0041D143 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 37BDBC5A2994791C00FF8A2E /* popup.html */; };
+		37DC876429D11A0B0041D143 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 37BDBC5C2994791C00FF8A2E /* popup.css */; };
+		37DC876529D11A0B0041D143 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 37BDBC5E2994791C00FF8A2E /* popup.js */; };
+		37DC876629D11A1C0041D143 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CEF9C029CE47F700FDC6DD /* Token.swift */; };
+		37DC876829D11A260041D143 /* YKSoft in Frameworks */ = {isa = PBXBuildFile; productRef = 37DC876729D11A260041D143 /* YKSoft */; };
+		37DC876A29D11A260041D143 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 37DC876929D11A260041D143 /* KeychainAccess */; };
+		37DC876C29D11D5D0041D143 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CEF9C029CE47F700FDC6DD /* Token.swift */; };
+		37DC876E29D121110041D143 /* CopyableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DC876D29D121110041D143 /* CopyableLabel.swift */; };
+		37DC877129D1F81E0041D143 /* YKSoft in Frameworks */ = {isa = PBXBuildFile; productRef = 37DC877029D1F81E0041D143 /* YKSoft */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,23 +70,33 @@
 			remoteGlobalIDString = 37BDBC472994791C00FF8A2E;
 			remoteInfo = "Touchstone Extension";
 		};
-		37BDBC782994795300FF8A2E /* PBXContainerItemProxy */ = {
+		37CEF9DF29CE705000FDC6DD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 37BDBC242994791C00FF8A2E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 37BDBC6E2994795300FF8A2E;
-			remoteInfo = XPCTouchstone;
+			remoteGlobalIDString = 37CEF9D029CE6D6D00FDC6DD;
+			remoteInfo = "Touchstone CLU";
 		};
-		37BDBC8529947C4200FF8A2E /* PBXContainerItemProxy */ = {
+		37DC875629D119AC0041D143 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 37BDBC242994791C00FF8A2E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 37BDBC6E2994795300FF8A2E;
-			remoteInfo = XPCTouchstone;
+			remoteGlobalIDString = 37DC873F29D119AC0041D143;
+			remoteInfo = "Touchstone Extension iOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		378D33E629CB381800EFEC3B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		37BDBC672994791C00FF8A2E /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -73,26 +114,44 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/XPCServices";
 			dstSubfolderSpec = 16;
 			files = (
-				37BDBC7A2994795300FF8A2E /* XPCTouchstone.xpc in Embed XPC Services */,
 			);
 			name = "Embed XPC Services";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		37BDBC7F2994796800FF8A2E /* Embed XPC Services */ = {
+		37CEF9CF29CE6D6D00FDC6DD /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = "$(CONTENTS_FOLDER_PATH)/XPCServices";
-			dstSubfolderSpec = 16;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
 			files = (
-				37BDBC802994797500FF8A2E /* XPCTouchstone.xpc in Embed XPC Services */,
 			);
-			name = "Embed XPC Services";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		37CEF9DD29CE702A00FDC6DD /* Embed Command Line Utility */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				37CEF9E229CE709D00FDC6DD /* duokey in Embed Command Line Utility */,
+			);
+			name = "Embed Command Line Utility";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37DC86BB29D118890041D143 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				37DC875829D119AC0041D143 /* Touchstone Extension iOS.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		378D338029CA0E6E00EFEC3B /* XPCTouchstone.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XPCTouchstone.entitlements; sourceTree = "<group>"; };
 		378D338129CA0E9400EFEC3B /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		378D338329CA14C000EFEC3B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37BDBC2C2994791C00FF8A2E /* Touchstone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Touchstone.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,7 +160,6 @@
 		37BDBC3E2994791C00FF8A2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		37BDBC402994791C00FF8A2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37BDBC422994791C00FF8A2E /* Touchstone.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Touchstone.entitlements; sourceTree = "<group>"; };
-		37BDBC432994791C00FF8A2E /* Touchstone.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Touchstone.entitlements; sourceTree = "<group>"; };
 		37BDBC482994791C00FF8A2E /* Touchstone Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Touchstone Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37BDBC4D2994791C00FF8A2E /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
 		37BDBC502994791C00FF8A2E /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
@@ -113,13 +171,24 @@
 		37BDBC5E2994791C00FF8A2E /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
 		37BDBC602994791C00FF8A2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37BDBC612994791C00FF8A2E /* Touchstone_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Touchstone_Extension.entitlements; sourceTree = "<group>"; };
-		37BDBC6F2994795300FF8A2E /* XPCTouchstone.xpc */ = {isa = PBXFileReference; explicitFileType = "wrapper.xpc-service"; includeInIndex = 0; path = XPCTouchstone.xpc; sourceTree = BUILT_PRODUCTS_DIR; };
-		37BDBC712994795300FF8A2E /* XPCTouchstoneProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XPCTouchstoneProtocol.swift; sourceTree = "<group>"; };
-		37BDBC732994795300FF8A2E /* XPCTouchstone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XPCTouchstone.swift; sourceTree = "<group>"; };
-		37BDBC752994795300FF8A2E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		37BDBC772994795300FF8A2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37BDBC8129947ABE00FF8A2E /* duo.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = duo.js; sourceTree = "<group>"; };
 		37BDBC8329947AC300FF8A2E /* touchstone.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = touchstone.js; sourceTree = "<group>"; };
+		37CEF9C029CE47F700FDC6DD /* Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		37CEF9D129CE6D6D00FDC6DD /* duokey */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = duokey; sourceTree = BUILT_PRODUCTS_DIR; };
+		37CEF9D329CE6D6D00FDC6DD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		37DC86A729D118670041D143 /* Touchstone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Touchstone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37DC86A929D118670041D143 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		37DC86AB29D118670041D143 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		37DC86AD29D118670041D143 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		37DC86B029D118670041D143 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37DC86B229D118680041D143 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37DC86B529D118680041D143 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		37DC86B729D118680041D143 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37DC86C129D118C60041D143 /* Touchstone iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Touchstone iOS.entitlements"; sourceTree = "<group>"; };
+		37DC874029D119AC0041D143 /* Touchstone Extension iOS.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Touchstone Extension iOS.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37DC875529D119AC0041D143 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37DC876B29D11B0F0041D143 /* Touchstone Extension iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Touchstone Extension iOS.entitlements"; sourceTree = "<group>"; };
+		37DC876D29D121110041D143 /* CopyableLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyableLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +196,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37CEF9C829CE4BC200FDC6DD /* YKSoft in Frameworks */,
+				37CEF9C529CE499000FDC6DD /* KeychainAccess in Frameworks */,
+				37DC877129D1F81E0041D143 /* YKSoft in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,26 +206,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37CEF9CC29CE4BD600FDC6DD /* KeychainAccess in Frameworks */,
+				37CEF9CA29CE4BD600FDC6DD /* YKSoft in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		37BDBC6C2994795300FF8A2E /* Frameworks */ = {
+		37CEF9CE29CE6D6D00FDC6DD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37CEF9DC29CE6D8000FDC6DD /* KeychainAccess in Frameworks */,
+				37CEF9DA29CE6D8000FDC6DD /* YKSoft in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37DC86A429D118670041D143 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37DC86C029D118BB0041D143 /* KeychainAccess in Frameworks */,
+				37DC86BE29D118BB0041D143 /* YKSoft in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37DC873D29D119AC0041D143 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37DC876A29D11A260041D143 /* KeychainAccess in Frameworks */,
+				37DC876829D11A260041D143 /* YKSoft in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		378D33E129CB381800EFEC3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		37BDBC232994791C00FF8A2E = {
 			isa = PBXGroup;
 			children = (
 				37BDBC2E2994791C00FF8A2E /* Touchstone */,
+				37DC86A829D118670041D143 /* Touchstone iOS */,
 				37BDBC4C2994791C00FF8A2E /* Touchstone Extension */,
-				37BDBC702994795300FF8A2E /* XPCTouchstone */,
+				37DC874129D119AC0041D143 /* Touchstone Extension iOS */,
+				37CEF9D229CE6D6D00FDC6DD /* Touchstone CLU */,
 				37BDBC2D2994791C00FF8A2E /* Products */,
+				378D33E129CB381800EFEC3B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -162,7 +266,9 @@
 			children = (
 				37BDBC2C2994791C00FF8A2E /* Touchstone.app */,
 				37BDBC482994791C00FF8A2E /* Touchstone Extension.appex */,
-				37BDBC6F2994795300FF8A2E /* XPCTouchstone.xpc */,
+				37CEF9D129CE6D6D00FDC6DD /* duokey */,
+				37DC86A729D118670041D143 /* Touchstone.app */,
+				37DC874029D119AC0041D143 /* Touchstone Extension iOS.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -176,9 +282,9 @@
 				37BDBC3D2994791C00FF8A2E /* Main.storyboard */,
 				37BDBC402994791C00FF8A2E /* Assets.xcassets */,
 				37BDBC422994791C00FF8A2E /* Touchstone.entitlements */,
-				37BDBC432994791C00FF8A2E /* Touchstone.entitlements */,
 				378D338329CA14C000EFEC3B /* Info.plist */,
 				37BDBC312994791C00FF8A2E /* Resources */,
+				37CEF9C029CE47F700FDC6DD /* Token.swift */,
 			);
 			path = Touchstone;
 			sourceTree = "<group>";
@@ -217,16 +323,37 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		37BDBC702994795300FF8A2E /* XPCTouchstone */ = {
+		37CEF9D229CE6D6D00FDC6DD /* Touchstone CLU */ = {
 			isa = PBXGroup;
 			children = (
-				378D338029CA0E6E00EFEC3B /* XPCTouchstone.entitlements */,
-				37BDBC712994795300FF8A2E /* XPCTouchstoneProtocol.swift */,
-				37BDBC732994795300FF8A2E /* XPCTouchstone.swift */,
-				37BDBC752994795300FF8A2E /* main.swift */,
-				37BDBC772994795300FF8A2E /* Info.plist */,
+				37CEF9D329CE6D6D00FDC6DD /* main.swift */,
 			);
-			path = XPCTouchstone;
+			path = "Touchstone CLU";
+			sourceTree = "<group>";
+		};
+		37DC86A829D118670041D143 /* Touchstone iOS */ = {
+			isa = PBXGroup;
+			children = (
+				37DC86A929D118670041D143 /* AppDelegate.swift */,
+				37DC86AB29D118670041D143 /* SceneDelegate.swift */,
+				37DC86AD29D118670041D143 /* ViewController.swift */,
+				37DC86AF29D118670041D143 /* Main.storyboard */,
+				37DC86B229D118680041D143 /* Assets.xcassets */,
+				37DC86B429D118680041D143 /* LaunchScreen.storyboard */,
+				37DC86C129D118C60041D143 /* Touchstone iOS.entitlements */,
+				37DC86B729D118680041D143 /* Info.plist */,
+				37DC876D29D121110041D143 /* CopyableLabel.swift */,
+			);
+			path = "Touchstone iOS";
+			sourceTree = "<group>";
+		};
+		37DC874129D119AC0041D143 /* Touchstone Extension iOS */ = {
+			isa = PBXGroup;
+			children = (
+				37DC876B29D11B0F0041D143 /* Touchstone Extension iOS.entitlements */,
+				37DC875529D119AC0041D143 /* Info.plist */,
+			);
+			path = "Touchstone Extension iOS";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,14 +368,21 @@
 				37BDBC2A2994791C00FF8A2E /* Resources */,
 				37BDBC672994791C00FF8A2E /* Embed Foundation Extensions */,
 				37BDBC7E2994795300FF8A2E /* Embed XPC Services */,
+				378D33E629CB381800EFEC3B /* Embed Frameworks */,
+				37CEF9DD29CE702A00FDC6DD /* Embed Command Line Utility */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				37CEF9E029CE705000FDC6DD /* PBXTargetDependency */,
 				37BDBC4B2994791C00FF8A2E /* PBXTargetDependency */,
-				37BDBC792994795300FF8A2E /* PBXTargetDependency */,
 			);
 			name = Touchstone;
+			packageProductDependencies = (
+				37CEF9C429CE499000FDC6DD /* KeychainAccess */,
+				37CEF9C729CE4BC200FDC6DD /* YKSoft */,
+				37DC877029D1F81E0041D143 /* YKSoft */,
+			);
 			productName = Touchstone;
 			productReference = 37BDBC2C2994791C00FF8A2E /* Touchstone.app */;
 			productType = "com.apple.product-type.application";
@@ -260,34 +394,84 @@
 				37BDBC442994791C00FF8A2E /* Sources */,
 				37BDBC452994791C00FF8A2E /* Frameworks */,
 				37BDBC462994791C00FF8A2E /* Resources */,
-				37BDBC7F2994796800FF8A2E /* Embed XPC Services */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				37BDBC8629947C4200FF8A2E /* PBXTargetDependency */,
 			);
 			name = "Touchstone Extension";
+			packageProductDependencies = (
+				37CEF9C929CE4BD600FDC6DD /* YKSoft */,
+				37CEF9CB29CE4BD600FDC6DD /* KeychainAccess */,
+			);
 			productName = "Touchstone Extension";
 			productReference = 37BDBC482994791C00FF8A2E /* Touchstone Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		37BDBC6E2994795300FF8A2E /* XPCTouchstone */ = {
+		37CEF9D029CE6D6D00FDC6DD /* duokey */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 37BDBC7B2994795300FF8A2E /* Build configuration list for PBXNativeTarget "XPCTouchstone" */;
+			buildConfigurationList = 37CEF9D529CE6D6D00FDC6DD /* Build configuration list for PBXNativeTarget "duokey" */;
 			buildPhases = (
-				37BDBC6B2994795300FF8A2E /* Sources */,
-				37BDBC6C2994795300FF8A2E /* Frameworks */,
-				37BDBC6D2994795300FF8A2E /* Resources */,
+				37CEF9CD29CE6D6D00FDC6DD /* Sources */,
+				37CEF9CE29CE6D6D00FDC6DD /* Frameworks */,
+				37CEF9CF29CE6D6D00FDC6DD /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = XPCTouchstone;
-			productName = XPCTouchstone;
-			productReference = 37BDBC6F2994795300FF8A2E /* XPCTouchstone.xpc */;
-			productType = "com.apple.product-type.xpc-service";
+			name = duokey;
+			packageProductDependencies = (
+				37CEF9D929CE6D8000FDC6DD /* YKSoft */,
+				37CEF9DB29CE6D8000FDC6DD /* KeychainAccess */,
+			);
+			productName = "Touchstone CLU";
+			productReference = 37CEF9D129CE6D6D00FDC6DD /* duokey */;
+			productType = "com.apple.product-type.tool";
+		};
+		37DC86A629D118670041D143 /* Touchstone iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37DC86BA29D118680041D143 /* Build configuration list for PBXNativeTarget "Touchstone iOS" */;
+			buildPhases = (
+				37DC86A329D118670041D143 /* Sources */,
+				37DC86A429D118670041D143 /* Frameworks */,
+				37DC86A529D118670041D143 /* Resources */,
+				37DC86BB29D118890041D143 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37DC875729D119AC0041D143 /* PBXTargetDependency */,
+			);
+			name = "Touchstone iOS";
+			packageProductDependencies = (
+				37DC86BD29D118BB0041D143 /* YKSoft */,
+				37DC86BF29D118BB0041D143 /* KeychainAccess */,
+			);
+			productName = "Touchstone iOS";
+			productReference = 37DC86A729D118670041D143 /* Touchstone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37DC873F29D119AC0041D143 /* Touchstone Extension iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37DC875929D119AC0041D143 /* Build configuration list for PBXNativeTarget "Touchstone Extension iOS" */;
+			buildPhases = (
+				37DC873C29D119AC0041D143 /* Sources */,
+				37DC873D29D119AC0041D143 /* Frameworks */,
+				37DC873E29D119AC0041D143 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Touchstone Extension iOS";
+			packageProductDependencies = (
+				37DC876729D11A260041D143 /* YKSoft */,
+				37DC876929D11A260041D143 /* KeychainAccess */,
+			);
+			productName = "Touchstone Extension iOS";
+			productReference = 37DC874029D119AC0041D143 /* Touchstone Extension iOS.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -305,7 +489,13 @@
 					37BDBC472994791C00FF8A2E = {
 						CreatedOnToolsVersion = 14.2;
 					};
-					37BDBC6E2994795300FF8A2E = {
+					37CEF9D029CE6D6D00FDC6DD = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					37DC86A629D118670041D143 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					37DC873F29D119AC0041D143 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
@@ -319,13 +509,19 @@
 				Base,
 			);
 			mainGroup = 37BDBC232994791C00FF8A2E;
+			packageReferences = (
+				37CEF9C329CE499000FDC6DD /* XCRemoteSwiftPackageReference "KeychainAccess" */,
+				37DC876F29D1F81E0041D143 /* XCRemoteSwiftPackageReference "YKSoft" */,
+			);
 			productRefGroup = 37BDBC2D2994791C00FF8A2E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				37BDBC2B2994791C00FF8A2E /* Touchstone */,
+				37DC86A629D118670041D143 /* Touchstone iOS */,
 				37BDBC472994791C00FF8A2E /* Touchstone Extension */,
-				37BDBC6E2994795300FF8A2E /* XPCTouchstone */,
+				37DC873F29D119AC0041D143 /* Touchstone Extension iOS */,
+				37CEF9D029CE6D6D00FDC6DD /* duokey */,
 			);
 		};
 /* End PBXProject section */
@@ -357,10 +553,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		37BDBC6D2994795300FF8A2E /* Resources */ = {
+		37DC86A529D118670041D143 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37DC86B629D118680041D143 /* LaunchScreen.storyboard in Resources */,
+				37DC86B329D118680041D143 /* Assets.xcassets in Resources */,
+				37DC86B129D118670041D143 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37DC873E29D119AC0041D143 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37DC875D29D11A0B0041D143 /* _locales in Resources */,
+				37DC875E29D11A0B0041D143 /* images in Resources */,
+				37DC875F29D11A0B0041D143 /* manifest.json in Resources */,
+				37DC876029D11A0B0041D143 /* duo.js in Resources */,
+				37DC876129D11A0B0041D143 /* touchstone.js in Resources */,
+				37DC876229D11A0B0041D143 /* background.js in Resources */,
+				37DC876329D11A0B0041D143 /* popup.html in Resources */,
+				37DC876429D11A0B0041D143 /* popup.css in Resources */,
+				37DC876529D11A0B0041D143 /* popup.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +589,7 @@
 				37BDBC3C2994791C00FF8A2E /* ViewController.swift in Sources */,
 				37BDBC302994791C00FF8A2E /* AppDelegate.swift in Sources */,
 				378D338229CA0E9400EFEC3B /* SettingsViewController.swift in Sources */,
+				37CEF9C129CE47F700FDC6DD /* Token.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,16 +598,37 @@
 			buildActionMask = 2147483647;
 			files = (
 				37BDBC4E2994791C00FF8A2E /* SafariWebExtensionHandler.swift in Sources */,
+				37CEF9C229CE47F700FDC6DD /* Token.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		37BDBC6B2994795300FF8A2E /* Sources */ = {
+		37CEF9CD29CE6D6D00FDC6DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37BDBC722994795300FF8A2E /* XPCTouchstoneProtocol.swift in Sources */,
-				37BDBC742994795300FF8A2E /* XPCTouchstone.swift in Sources */,
-				37BDBC762994795300FF8A2E /* main.swift in Sources */,
+				37CEF9D429CE6D6D00FDC6DD /* main.swift in Sources */,
+				37CEF9D829CE6D7400FDC6DD /* Token.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37DC86A329D118670041D143 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37DC876E29D121110041D143 /* CopyableLabel.swift in Sources */,
+				37DC86AE29D118670041D143 /* ViewController.swift in Sources */,
+				37DC86AA29D118670041D143 /* AppDelegate.swift in Sources */,
+				37DC86AC29D118670041D143 /* SceneDelegate.swift in Sources */,
+				37DC876C29D11D5D0041D143 /* Token.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37DC873C29D119AC0041D143 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37DC876629D11A1C0041D143 /* Token.swift in Sources */,
+				37DC875C29D119DA0041D143 /* SafariWebExtensionHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,15 +640,15 @@
 			target = 37BDBC472994791C00FF8A2E /* Touchstone Extension */;
 			targetProxy = 37BDBC4A2994791C00FF8A2E /* PBXContainerItemProxy */;
 		};
-		37BDBC792994795300FF8A2E /* PBXTargetDependency */ = {
+		37CEF9E029CE705000FDC6DD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 37BDBC6E2994795300FF8A2E /* XPCTouchstone */;
-			targetProxy = 37BDBC782994795300FF8A2E /* PBXContainerItemProxy */;
+			target = 37CEF9D029CE6D6D00FDC6DD /* duokey */;
+			targetProxy = 37CEF9DF29CE705000FDC6DD /* PBXContainerItemProxy */;
 		};
-		37BDBC8629947C4200FF8A2E /* PBXTargetDependency */ = {
+		37DC875729D119AC0041D143 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 37BDBC6E2994795300FF8A2E /* XPCTouchstone */;
-			targetProxy = 37BDBC8529947C4200FF8A2E /* PBXContainerItemProxy */;
+			target = 37DC873F29D119AC0041D143 /* Touchstone Extension iOS */;
+			targetProxy = 37DC875629D119AC0041D143 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -422,6 +659,22 @@
 				37BDBC3E2994791C00FF8A2E /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37DC86AF29D118670041D143 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37DC86B029D118670041D143 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37DC86B429D118680041D143 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37DC86B529D118680041D143 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -611,7 +864,7 @@
 				CODE_SIGN_ENTITLEMENTS = Touchstone/Touchstone.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = F2XKQN9YY8;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -625,7 +878,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -648,7 +901,7 @@
 				CODE_SIGN_ENTITLEMENTS = Touchstone/Touchstone.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = F2XKQN9YY8;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -662,7 +915,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -676,49 +929,165 @@
 			};
 			name = Release;
 		};
-		37BDBC7C2994795300FF8A2E /* Debug */ = {
+		37CEF9D629CE6D6D00FDC6DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = XPCTouchstone/XPCTouchstone.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = F2XKQN9YY8;
 				ENABLE_HARDENED_RUNTIME = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = XPCTouchstone/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = XPCTouchstone;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ch.capslock.XPCTouchstone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		37BDBC7D2994795300FF8A2E /* Release */ = {
+		37CEF9D729CE6D6D00FDC6DD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = XPCTouchstone/XPCTouchstone.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = F2XKQN9YY8;
 				ENABLE_HARDENED_RUNTIME = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = XPCTouchstone/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = XPCTouchstone;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ch.capslock.XPCTouchstone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		37DC86B829D118680041D143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Touchstone iOS/Touchstone iOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2XKQN9YY8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Touchstone iOS/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.capslock.Touchstone;
+				PRODUCT_NAME = Touchstone;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37DC86B929D118680041D143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Touchstone iOS/Touchstone iOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2XKQN9YY8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Touchstone iOS/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.capslock.Touchstone;
+				PRODUCT_NAME = Touchstone;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37DC875A29D119AC0041D143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Touchstone Extension iOS/Touchstone Extension iOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2XKQN9YY8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Touchstone Extension iOS/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Touchstone Extension iOS";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ch.capslock.Touchstone.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37DC875B29D119AC0041D143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Touchstone Extension iOS/Touchstone Extension iOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2XKQN9YY8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Touchstone Extension iOS/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Touchstone Extension iOS";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ch.capslock.Touchstone.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -752,16 +1121,106 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		37BDBC7B2994795300FF8A2E /* Build configuration list for PBXNativeTarget "XPCTouchstone" */ = {
+		37CEF9D529CE6D6D00FDC6DD /* Build configuration list for PBXNativeTarget "duokey" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				37BDBC7C2994795300FF8A2E /* Debug */,
-				37BDBC7D2994795300FF8A2E /* Release */,
+				37CEF9D629CE6D6D00FDC6DD /* Debug */,
+				37CEF9D729CE6D6D00FDC6DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37DC86BA29D118680041D143 /* Build configuration list for PBXNativeTarget "Touchstone iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37DC86B829D118680041D143 /* Debug */,
+				37DC86B929D118680041D143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37DC875929D119AC0041D143 /* Build configuration list for PBXNativeTarget "Touchstone Extension iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37DC875A29D119AC0041D143 /* Debug */,
+				37DC875B29D119AC0041D143 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		37CEF9C329CE499000FDC6DD /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		37DC876F29D1F81E0041D143 /* XCRemoteSwiftPackageReference "YKSoft" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/NMAC427/YKSoft";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		37CEF9C429CE499000FDC6DD /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 37CEF9C329CE499000FDC6DD /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
+		37CEF9C729CE4BC200FDC6DD /* YKSoft */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = YKSoft;
+		};
+		37CEF9C929CE4BD600FDC6DD /* YKSoft */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = YKSoft;
+		};
+		37CEF9CB29CE4BD600FDC6DD /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 37CEF9C329CE499000FDC6DD /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
+		37CEF9D929CE6D8000FDC6DD /* YKSoft */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = YKSoft;
+		};
+		37CEF9DB29CE6D8000FDC6DD /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 37CEF9C329CE499000FDC6DD /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
+		37DC86BD29D118BB0041D143 /* YKSoft */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = YKSoft;
+		};
+		37DC86BF29D118BB0041D143 /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 37CEF9C329CE499000FDC6DD /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
+		37DC876729D11A260041D143 /* YKSoft */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = YKSoft;
+		};
+		37DC876929D11A260041D143 /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 37CEF9C329CE499000FDC6DD /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
+		37DC877029D1F81E0041D143 /* YKSoft */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 37DC876F29D1F81E0041D143 /* XCRemoteSwiftPackageReference "YKSoft" */;
+			productName = YKSoft;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 37BDBC242994791C00FF8A2E /* Project object */;
 }

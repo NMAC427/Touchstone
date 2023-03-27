@@ -6,7 +6,6 @@ browser.runtime.sendMessage({ type: "native", message: "getPasscode" }).then((re
     console.log(response);
 
     if (typeof response !== "string") {
-        window.alert("Error: " + response.error);
         return;
     }
 

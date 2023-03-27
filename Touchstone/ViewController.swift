@@ -7,7 +7,6 @@
 
 import Cocoa
 import SafariServices
-import WebKit
 
 let extensionBundleIdentifier = "ch.capslock.Touchstone.Extension"
 
